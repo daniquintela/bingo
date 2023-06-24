@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    height: 15vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: hotpink;
+}
+
+main {
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+main section#area_cartelas {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+div#header_cartelas {
+    height: 18%;
+    width: 100%;
+    background-color: #F7C5CD;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div#header_cartelas button {
+    height: 40px;
+    width: 100px;
+    background-color: #F82E91;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+}
+
+div#cartelas {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+div.cartela {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+th, td {
+    height: 20px;
+    width: 30px;
+    text-align: center;
+}
+
+table {
+    margin-top: 10px;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+td.drawn {
+    background-color: green;
+}  
+
+main section#area_jogo {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+div#header_jogo {
+    width: 100%;
+    height: 18%;
+    background-color: #F7C5CD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    flex-direction: column;
+}
+
+div#header_jogo button {
+    height: 40px;
+    width: 40%;
+    background-color: #F82E91;
+    font-weight: bold;
+    color: black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+div#winner {
+    display: flex;
+    margin-left: 3%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    background-color: hotpink;
+}
